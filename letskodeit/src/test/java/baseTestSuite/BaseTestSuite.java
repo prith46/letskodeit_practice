@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class BaseTestSuite {
@@ -13,7 +13,7 @@ public class BaseTestSuite {
     public static WebDriver driver;
     String baseURL = "https://www.letskodeit.com/practice";
 
-    @BeforeSuite
+    @BeforeTest
     @Parameters({"browser"})
     public void setUp(String browser) {
         if (browser.equalsIgnoreCase("firefox")) {
@@ -27,7 +27,7 @@ public class BaseTestSuite {
         driver.get(baseURL);
     }
 
-    @AfterSuite
+    @AfterTest
     public void tearDown() throws InterruptedException {
         Thread.sleep(1000);
         driver.quit();

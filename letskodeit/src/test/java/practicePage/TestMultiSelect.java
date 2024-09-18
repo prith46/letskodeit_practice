@@ -38,8 +38,6 @@ public class TestMultiSelect extends BaseTestSuite {
         List<WebElement> elements = generic.getElements("xpath", "//select[@id='multiple-select-example']//option");
         for(WebElement element : elements){
             element.click();
-            Thread.sleep(1000);
-
             if(!element.isSelected()){
                 System.out.println("Error in selecting the element");
                 return;
