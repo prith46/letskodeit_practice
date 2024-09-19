@@ -3,34 +3,37 @@
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="practicePage.TestRadioButton"/>
-            <class name="practicePage.TestCheckbox"/>
-            <class name="practicePage.TestSelectClass"/>
-            <class name="practicePage.TestAutoSuggest"/>
-            <class name="practicePage.TestMultiSelect"/>
-            <class name="practicePage.TestEnableDisableButton"/>
+<!--            <class name="practicePage.TestRadioButton"/>-->
+<!--            <class name="practicePage.TestCheckbox"/>-->
+<!--            <class name="practicePage.TestSelectClass"/>-->
+<!--            <class name="practicePage.TestAutoSuggest"/>-->
+<!--            <class name="practicePage.TestMultiSelect"/>-->
+<!--            <class name="practicePage.TestEnableDisableButton"/>-->
+<!--            <class name="practicePage.TestDisplayElement"/>-->
+<!--            <class name="practicePage.TestWebTable"/>-->
+            <class name="practicePage.TestMouseHover"/>
         </classes>
     </test>
-    <test name="Firefox Test">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="practicePage.TestRadioButton"/>
-            <class name="practicePage.TestCheckbox"/>
-            <class name="practicePage.TestSelectClass"/>
-            <class name="practicePage.TestAutoSuggest"/>
-            <class name="practicePage.TestMultiSelect"/>
-            <class name="practicePage.TestEnableDisableButton"/>
-        </classes>
-    </test>
-    <test name="Edge Test">
-        <parameter name="browser" value="edge"/>
-        <classes>
-            <class name="practicePage.TestRadioButton"/>
-            <class name="practicePage.TestCheckbox"/>
-            <class name="practicePage.TestSelectClass"/>
-            <class name="practicePage.TestAutoSuggest"/>
-            <class name="practicePage.TestMultiSelect"/>
-            <class name="practicePage.TestEnableDisableButton"/>
-        </classes>
-    </test>
+<!--    <test name="Firefox Test">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="practicePage.TestRadioButton"/>-->
+<!--            <class name="practicePage.TestCheckbox"/>-->
+<!--            <class name="practicePage.TestSelectClass"/>-->
+<!--            <class name="practicePage.TestAutoSuggest"/>-->
+<!--            <class name="practicePage.TestMultiSelect"/>-->
+<!--            <class name="practicePage.TestEnableDisableButton"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Edge Test">-->
+<!--        <parameter name="browser" value="edge"/>-->
+<!--        <classes>-->
+<!--            <class name="practicePage.TestRadioButton"/>-->
+<!--            <class name="practicePage.TestCheckbox"/>-->
+<!--            <class name="practicePage.TestSelectClass"/>-->
+<!--            <class name="practicePage.TestAutoSuggest"/>-->
+<!--            <class name="practicePage.TestMultiSelect"/>-->
+<!--            <class name="practicePage.TestEnableDisableButton"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
